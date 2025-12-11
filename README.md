@@ -15,3 +15,13 @@ make -f 2.mk clean
 make -f 3.mk
 ./app
 make -f 3.mk clean
+
+# Task2
+# 1.2.2
+make
+./app
+make clean
+# or
+BUILD_METHOD=include make
+./app
+make clean
